@@ -70,7 +70,7 @@ check_os_version() {
     fi
 
     if [ "$_version" != "9 (stretch)" ]; then
-        err "Distribution not based on Debian 9 (stretch)"
+        err "Distribution not based on Debian 10 (buster)"
     fi
 }
 
