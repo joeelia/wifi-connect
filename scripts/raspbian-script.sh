@@ -68,10 +68,6 @@ check_os_version() {
     if [ -f /etc/os-release ]; then
         _version=$(grep -oP 'VERSION="\K[^"]+' /etc/os-release)
     fi
-
-    if [ "$_version" != "10 (buster)" ]; then
-       
-    fi
 }
 
 activate_network_manager() {
