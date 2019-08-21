@@ -70,7 +70,7 @@ check_os_version() {
     fi
 
     if [ "$_version" != "10 (buster)" ]; then
-        err "Distribution not based on Debian 10 (buster)"
+       
     fi
 }
 
