@@ -69,7 +69,7 @@ check_os_version() {
         _version=$(grep -oP 'VERSION="\K[^"]+' /etc/os-release)
     fi
 
-    if [ "$_version" != "9 (stretch)" ]; then
+    if [ "$_version" != "10 (buster)" ]; then
         err "Distribution not based on Debian 10 (buster)"
     fi
 }
