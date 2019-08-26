@@ -66,7 +66,7 @@ WiFi Connect depends on NetworkManager, but by default Raspbian Stretch uses dhc
 
 Run the following in your terminal, then follow the onscreen instructions:
 
-`bash <(curl -L https://github.com/joeelia/wifi-connect/raw/master/scripts/raspbian-install.sh)`
+`bash <(curl -L https://raw.githubusercontent.com/joeelia/wifi-connect/master/scripts/raspbian-script.sh)`
 
 ### balenaOS
 
